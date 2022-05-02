@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignupActivity">
+
+    <TextView
+        android:id="@+id/tv_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/salsa"
+        android:text="UserName"
+        android:textColor="#000000"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/et_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/tv_email2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/salsa"
+        android:text="Email"
+        android:textColor="#000000"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/et_email2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#000000"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        tools:text="enter email" />
+
+    <TextView
+        android:id="@+id/tv_password2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/salsa"
+        android:text="Password"
+        android:textColor="#000000"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/et_password2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#000000"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        tools:text="enter password" />
+
+    <CheckBox
+        android:id="@+id/cb_remember_me2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:buttonTint="@color/purple_default"
+        android:fontFamily="@font/salsa"
+        android:minHeight="48dp"
+        android:text="Remember me"
+        android:textSize="26dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_sign_up2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="155dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/purple_default"
+            android:fontFamily="@font/salsa"
+            android:text="SIGN UP"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="330dp"
+            android:background="#C1C1C1"
+            android:text="back"
+            android:fontFamily="@font/salsa"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

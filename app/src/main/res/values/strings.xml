@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Full Week</string>
+    <string name="sunday">SUNDAY</string>
+    <string name="sunday1">SUNDAY1</string>
+    <string name="saved_email"></string>
+    <string name="remember_user" />
+</resources>

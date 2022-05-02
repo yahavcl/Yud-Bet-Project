@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/allerta</item>
+        <item>@font/amaranth</item>
+        <item>@font/amiko_semibold</item>
+        <item>@font/andika_new_basic</item>
+        <item>@font/andika_new_basic_bold</item>
+        <item>@font/archivo_narrow_bold</item>
+        <item>@font/averia_gruesa_libre</item>
+        <item>@font/baloo</item>
+        <item>@font/balsamiq_sans</item>
+        <item>@font/bowlby_one_sc</item>
+        <item>@font/cabin_semibold</item>
+        <item>@font/candal</item>
+        <item>@font/capriola</item>
+        <item>@font/carrois_gothic</item>
+        <item>@font/chelsea_market</item>
+        <item>@font/delius_unicase</item>
+        <item>@font/exo_2_medium</item>
+        <item>@font/fira_sans_condensed_medium</item>
+        <item>@font/fredoka_one</item>
+        <item>@font/hammersmith_one</item>
+        <item>@font/kavivanar</item>
+        <item>@font/kite_one</item>
+        <item>@font/krona_one</item>
+        <item>@font/mali_semibold</item>
+        <item>@font/margarine</item>
+        <item>@font/martel_sans</item>
+        <item>@font/mclaren</item>
+        <item>@font/merriweather_sans</item>
+        <item>@font/nova_round</item>
+        <item>@font/open_sans</item>
+        <item>@font/poppins</item>
+        <item>@font/roboto</item>
+        <item>@font/roboto_bold</item>
+        <item>@font/roboto_medium</item>
+        <item>@font/ruluko</item>
+        <item>@font/secular_one</item>
+        <item>@font/sniglet</item>
+        <item>@font/titan_one</item>
+        <item>@font/work_sans</item>
+    </array>
+</resources>
