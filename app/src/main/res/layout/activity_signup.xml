@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignupActivity">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/top_view2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/purple_default" />
+
+        <TextView
+            android:id="@+id/tv_signup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="bottom|center_horizontal"
+            android:shadowColor="#443A81"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="1"
+            android:text="SIGN UP"
+            android:textColor="#ECE3FF"
+            android:textSize="60sp" />
+
+    </FrameLayout>
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/wave"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_user_name"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="30dp"
+        android:hint="User name"
+        app:startIconDrawable="@drawable/ic_username_icon"
+        app:startIconTint="@color/purple_default">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiet_user_mame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_email2"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="30dp"
+        android:hint="Email"
+        app:startIconDrawable="@drawable/ic_email_icon"
+        app:startIconTint="@color/purple_default">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiet_email2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_password2"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:hint="Password"
+        app:startIconDrawable="@drawable/ic_password_icon"
+        app:startIconTint="@color/purple_default">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiet_password2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <CheckBox
+        android:id="@+id/cb_remember_me2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:buttonTint="@color/purple_default"
+        android:fontFamily="@font/roboto_medium"
+        android:layout_marginBottom="10dp"
+        android:minHeight="48dp"
+        android:text="Remember me"
+        android:textColor="@color/purple_default"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btn_sign_up2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="80dp"
+        android:background="@android:drawable/editbox_background"
+        android:backgroundTint="@color/purple_default"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Sign up"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:drawable/editbox_background"
+        android:backgroundTint="#86848C"
+        android:fontFamily="@font/roboto_medium"
+        android:text="back"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+</LinearLayout>

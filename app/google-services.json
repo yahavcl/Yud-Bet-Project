@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "976340227606",
+    "project_id": "yahavproject-8c957",
+    "storage_bucket": "yahavproject-8c957.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976340227606:android:623cebe540fd7769968737",
+        "android_client_info": {
+          "package_name": "com.example.yahavproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976340227606-nrolukap8bdlufl90kkemccpj6h2ekdo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs-_BxjhPfP83Xti8qdRMJ0lTvMiBJXdg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976340227606-nrolukap8bdlufl90kkemccpj6h2ekdo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

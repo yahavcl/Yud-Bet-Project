@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8D5DBDF"
+    android:gravity="end"
+    android:orientation="vertical"
+    tools:context=".MondayActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4C535C"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title_mon"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/steamed"
+            android:gravity="center_horizontal|center_vertical"
+            android:shadowColor="#232323"
+            android:shadowDx="0"
+            android:shadowDy="10"
+            android:shadowRadius="@dimen/material_emphasis_high_type"
+            android:text="MONDAY"
+            android:textAlignment="center"
+            android:textColor="#EDEDED"
+            android:textIsSelectable="false"
+            android:textSize="50sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginBottom="20dp"
+        android:background="#202020" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/lv_notes_mon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="17dp">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add_mon"
+            style="@style/Animation.Design.BottomSheetDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/purple_default"
+            android:clickable="true"
+            android:visibility="invisible"
+            android:tint="@color/white"
+            tools:ignore="SpeakableTextPresentCheck"
+            app:srcCompat="@drawable/ic_plus" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_clear_mon"
+            style="@style/Animation.Design.BottomSheetDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/purple_default"
+            android:clickable="true"
+            android:visibility="invisible"
+            android:tint="@color/white"
+            tools:ignore="SpeakableTextPresentCheck"
+            app:srcCompat="@drawable/ic_delete_icon"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_edit_mon"
+            style="@style/Animation.Design.BottomSheetDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#595E65"
+            android:clickable="true"
+            android:minWidth="50dp"
+            android:minHeight="50dp"
+            android:tint="@color/white"
+            app:srcCompat="@drawable/ic_edit"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:srcCompat="@tools:sample/backgrounds/scenic"/>
+
+    </LinearLayout>
+
+</LinearLayout>
